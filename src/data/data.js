@@ -5,7 +5,7 @@ export const brands = [
     name: "Grassetto",
     description: "Disfruta el #MomentoGrassetto. Fiambres aptos para celiacos.",
     location: "Cañuelas, provincia de Buenos Aires.",
-    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713222606/premiun/logos/grasseto_sbhm2b.png",
+    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714074303/premiun/logos/Screenshot_2024-04-25_164434_eapams.png",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713214365/premiun/catalogos/catalogo_digital-3_xuzqf7.pdf",
     gallery: [

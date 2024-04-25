@@ -21,7 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Nav />
-        <main className="min-w-full mb-2 lg:mb-10">{children}</main>
+        <main className="min-w-full mb-2 lg:mb-10 overflow-x-hidden flex items-center justify-center">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
