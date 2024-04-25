@@ -7,8 +7,8 @@ import CarouselSection from "components/carouselSection/CarouselSection.componen
 export default function Home() {
   return (
     <div className="flex flex-col w-full justify-center lg:mt-10  ">
-      <div className="flex flex-col lg:flex-row max-auto justify-between lg:px-20 md:min-h-screen flex-wrap ">
-        <div className="flex flex-col lg:w-3/5 lg:mr-6 items-center justify-center flex-shrink">
+      <div className="flex flex-col md:flex-row max-auto justify-between  md:min-h-screen">
+        <div className="flex flex-col lg:w-3/5 lg:mr-6 items-center justify-center ">
           <h1 className="text-center mb-10 mt-3 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             Representaciones
             <br />y logistica

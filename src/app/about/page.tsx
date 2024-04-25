@@ -5,10 +5,15 @@ import {Slide} from "react-awesome-reveal";
 function AboutPage() {
   return (
     <div className="flex flex-col justify-center flex-wrap">
-      <div className="flex mx-auto items-center mt-7 justify-around w-5/6 min-h-screen flex-shrink">
-        <Slide direction="up" cascade={true} triggerOnce>
+      <div className="container flex mx-auto items-center mt-7 justify-around md:w-5/6 min-h-screen ">
+        <Slide
+          direction="up"
+          cascade={true}
+          triggerOnce
+          className="flex-shrink"
+        >
           <div className="flex flex-col sm:flex-row lg:space-x-4 ">
-            <div>
+            <div className="sm: container">
               <h2 className="text-4xl font-extrabold dark:text-white mt-11 lg:ml-6">
                 Nuestra historia
               </h2>
@@ -48,7 +53,7 @@ function AboutPage() {
                     generaciones venideras.
                   </p>
                 </blockquote>
-                <figcaption className="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+                <figcaption className="flex items-center justify-center mt-6 md:space-x-3 rtl:space-x-reverse">
                   <div className="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
                     <cite className="pe-3 font-medium text-gray-900 dark:text-white">
                       Pablo Brasca
@@ -61,7 +66,7 @@ function AboutPage() {
               </figure>
             </div>
             <img
-              className=" max-w-sm object-cover rounded-lg shadow-lg h-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              className="sm:max-w-screen-sm md:max-w-sm object-cover rounded-lg shadow-lg h-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
               src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714061596/premiun/misc/WhatsApp_Image_2024-04-25_at_13.11.18_a3ee0270_dvraq3.jpg"
               alt="Pablo Brasca"
             />
@@ -70,13 +75,18 @@ function AboutPage() {
       </div>
 
       <div
-        className="flex mx-auto items-center mt-11 justify-around w-5/6 min-h-0 flex-shrink"
+        className="container flex mx-auto items-center mt-7 justify-around md:w-5/6 min-h-screen  flex-wrap "
         dir="rtl"
       >
-        <Slide direction="up" cascade={true} triggerOnce>
-          <div className="flex flex-col sm:flex-row lg:space-x-4 ">
-            <div className="md:ml-4 items-center" dir="ltr">
-              <h2 className="text-4xl font-extrabold dark:text-white mt-11 lg:ml-6 md:mb-8 ">
+        <Slide
+          direction="up"
+          cascade={true}
+          triggerOnce
+          className="flex-shrink"
+        >
+          <div className="sm:container flex flex-col md:flex-row lg:space-x-4 ">
+            <div className=" md:ml-4 items-center px-3 md:px-0 " dir="ltr">
+              <h2 className="text-4xl font-extrabold dark:text-white mt-11 mb-3 lg:ml-6 md:mb-8 ">
                 Quienes Somos
               </h2>
               <div className=" text-left">
@@ -109,7 +119,7 @@ function AboutPage() {
               </div>
             </div>
             <img
-              className=" max-w-sm md:min-w-sm object-cover rounded-lg shadow-lg h-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 lg:mr-6"
+              className="sm:max-w-screen-sm md:max-w-sm md:min-w-sm object-cover rounded-lg shadow-lg h-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 lg:mr-6"
               src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714053089/premiun/misc/close-up-businessman-writing-summary_oy05tn.jpg"
               alt="Pablo Brasca"
             />
