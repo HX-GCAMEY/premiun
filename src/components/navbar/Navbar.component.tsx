@@ -11,6 +11,7 @@ import {
 
 import logo from "../../../public/logo.svg";
 import Image from "next/image";
+import {brands} from "data/data";
 
 function Nav() {
   return (
@@ -37,13 +38,20 @@ function Nav() {
         </NavbarLink>
 
         <Dropdown label="Marcas" arrowIcon={true} inline>
-          <DropdownItem href="/brands/grassetto">Grassetto</DropdownItem>
+          {brands.map((brand) => {
+            return (
+              <DropdownItem href={`/brands/${brand.tag}`} key={brand.id}>
+                {brand.name}
+              </DropdownItem>
+            );
+          })}
+          {/* <DropdownItem href="/brands/grassetto">Grassetto</DropdownItem>
           <DropdownItem href="/brands/inal">Inal</DropdownItem>
           <DropdownItem href="/brands/cagnoli">Cagnoli</DropdownItem>
           <DropdownItem href="/brands/union-ganadera">
             Union Ganadera
           </DropdownItem>
-          <DropdownItem href="/brands/el-silencio">El Silencio</DropdownItem>
+          <DropdownItem href="/brands/el-silencio">El Silencio</DropdownItem> */}
         </Dropdown>
         <NavbarLink href="/contact">Contacto</NavbarLink>
       </NavbarCollapse>

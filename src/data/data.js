@@ -18,8 +18,6 @@ export const brands = [
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713884682/premiun/galeria%20premiun/Screenshot_2024-04-23_120144_forq4i.png",
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713884682/premiun/galeria%20premiun/Screenshot_2024-04-23_120128_bou3ln.png",
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713884681/premiun/galeria%20premiun/Screenshot_2024-04-23_120203_fyxmgu.png",
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713884681/premiun/galeria%20premiun/Screenshot_2024-04-23_120210_cahdrf.png",
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713884680/premiun/galeria%20premiun/Screenshot_2024-04-23_120224_cbqmsn.png",
     ],
   },
   {
@@ -64,8 +62,6 @@ export const brands = [
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713887415/premiun/galeria%20cagnoli/Screenshot_2024-04-23_124745_uqrnnb.png",
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713887412/premiun/galeria%20cagnoli/Screenshot_2024-04-23_124809_tv39b4.png",
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713887408/premiun/galeria%20cagnoli/Screenshot_2024-04-23_124835_pih1o8.png",
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713887408/premiun/galeria%20cagnoli/Screenshot_2024-04-23_124850_ibppym.png",
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713887406/premiun/galeria%20cagnoli/Screenshot_2024-04-23_124908_ebucjc.png",
     ],
   },
   {
@@ -85,7 +81,6 @@ export const brands = [
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713885366/premiun/galeria%20inal/Screenshot_2024-04-23_121120_en6upf.png",
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713885366/premiun/galeria%20inal/Screenshot_2024-04-23_121056_z26kfu.png",
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713885365/premiun/galeria%20inal/Screenshot_2024-04-23_121048_whfvvm.png",
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713885365/premiun/galeria%20inal/Screenshot_2024-04-23_121038_u2qqkz.png",
     ],
   },
   {
@@ -96,8 +91,47 @@ export const brands = [
       "Fiambres de calidad con el sabor de siempre. #SaboresRegionales",
     location: "Cordoba, provincia de Buenos Aires.",
     logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713883961/premiun/logos/silencio_nmqmey.jpg",
-    catalogUrl:
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713214508/premiun/catalogos/Cat%C3%A1logo-Inal_compressed_ygpvtd.pdf",
+    catalogUrl: "",
     gallery: [],
+  },
+  {
+    id: 6,
+    tag: "caviwa",
+    name: "Caviwa",
+    description:
+      "Somos una empresa familiar con más de 30 años, especializada en dar valor agregado al maní 🥜 Comprometidos con la excelencia y calidad",
+    location: "Argentina",
+    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081074/premiun/logos/Screenshot_2024-04-25_183548_b70ifu.png",
+    catalogUrl: "",
+    gallery: [
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081253/premiun/caviwa/Screenshot_2024-04-25_183332_tdlu0x.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081252/premiun/caviwa/Screenshot_2024-04-25_183345_gk4lsc.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081251/premiun/caviwa/Screenshot_2024-04-25_183359_wohi8n.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081249/premiun/caviwa/Screenshot_2024-04-25_183440_u3fgjx.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081248/premiun/caviwa/Screenshot_2024-04-25_183316_h39dd8.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081247/premiun/caviwa/Screenshot_2024-04-25_183454_g4g1a7.png",
+    ],
+  },
+  {
+    id: 7,
+    tag: "cremac",
+    name: "Cremac",
+    description:
+      "Desde hace 60 años producimos quesos y lácteos con la misma pasión",
+    location: "San Marcos, provincia de Cordoba.",
+    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081902/premiun/logos/Screenshot_2024-04-25_185112_pwfypn.png",
+    catalogUrl:
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714082548/premiun/catalogos/Brochure-Productos-2020-digital_ohf81n.pdf",
+    gallery: [
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081937/premiun/cremac/Screenshot_2024-04-25_184542_aubisn.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081932/premiun/cremac/Screenshot_2024-04-25_184645_zdavcs.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081928/premiun/cremac/Screenshot_2024-04-25_184743_gwnm18.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081928/premiun/cremac/Screenshot_2024-04-25_184803_q5b6yw.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081922/premiun/cremac/Screenshot_2024-04-25_184558_filwyj.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081926/premiun/cremac/Screenshot_2024-04-25_184823_el0zpn.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081923/premiun/cremac/Screenshot_2024-04-25_184837_r5alcz.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081930/premiun/cremac/Screenshot_2024-04-25_184705_qdehdv.png",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081934/premiun/cremac/Screenshot_2024-04-25_184636_rohbud.png",
+    ],
   },
 ];

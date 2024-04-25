@@ -6,6 +6,9 @@ function Carousel() {
     "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713222900/premiun/logos/ug_oxeasj.jpg",
     "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713468063/premiun/logos/cagnoli_qc4vui.jpg",
     "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713222828/premiun/logos/Cat%C3%A1logo-Inal_compressed_ygpvtd-1_page-0001_yrs1y5.jpg",
+    "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713883961/premiun/logos/silencio_nmqmey.jpg",
+    "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081074/premiun/logos/Screenshot_2024-04-25_183548_b70ifu.png",
+    "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081902/premiun/logos/Screenshot_2024-04-25_185112_pwfypn.png",
   ];
 
   return (

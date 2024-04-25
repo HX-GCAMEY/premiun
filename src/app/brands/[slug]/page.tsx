@@ -6,6 +6,8 @@ import {brands} from "data/data.js";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLocationDot} from "@fortawesome/free-solid-svg-icons";
 import {Fade} from "react-awesome-reveal";
+import {ToastContainer, toast} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function BrandPage({params}: {params: any}) {
   const [brand, setBrand] = useState<any>(null);
@@ -44,6 +46,18 @@ function BrandPage({params}: {params: any}) {
   const {name, logo, catalogUrl, gallery, description, location} = brand;
 
   const handleDownload = () => {
+    if (!catalogUrl) {
+      toast.error("⚠️ Ups el catalogo no esta disponible!", {
+        position: "bottom-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+      return;
+    }
     fetch(catalogUrl)
       .then((response) => response.blob())
       .then((blob) => {
@@ -112,6 +126,17 @@ function BrandPage({params}: {params: any}) {
           </Fade>
         ))}
       </div>
+      <ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 }
