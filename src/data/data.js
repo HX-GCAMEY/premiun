@@ -51,7 +51,7 @@ export const brands = [
     description:
       "Salames, chacinados y fiambres de alta calidad. Elaboramos de manera artesanal el genuino salamin tandilero. #OrgullososDeSerTandileros",
     location: "Tandil, provincia de Buenos Aires.",
-    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713222943/premiun/logos/cagnoli_dtaej2.jpg",
+    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713468063/premiun/logos/cagnoli_qc4vui.jpg",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713214521/premiun/catalogos/Cat%C3%A1logo_Comercial_2020_-_Final_compressed_txxcvk.pdf",
     gallery: [
@@ -75,6 +75,7 @@ export const brands = [
     description:
       "Productos congelados ¡de mardel a tu casa!. Frescos, rapidos y crujientes.",
     location: "Mar del Plata, provincia de Buenos Aires.",
+    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713222828/premiun/logos/Cat%C3%A1logo-Inal_compressed_ygpvtd-1_page-0001_yrs1y5.jpg",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713214508/premiun/catalogos/Cat%C3%A1logo-Inal_compressed_ygpvtd.pdf",
     gallery: [
