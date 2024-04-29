@@ -5,7 +5,7 @@ import {Slide} from "react-awesome-reveal";
 function AboutPage() {
   return (
     <div className="flex flex-col justify-center flex-wrap">
-      <div className="container flex mx-auto items-center mt-7 justify-around md:w-5/6 min-h-screen ">
+      <div className="container flex mx-auto items-center mt-7 justify-around md:w-5/6 min-h-screen border-t-3 border-gray-500 ">
         <Slide
           direction="up"
           cascade={true}
@@ -21,12 +21,13 @@ function AboutPage() {
                 <p className="text-gray-500 dark:text-gray-400 ">
                   Somos una empresa proveniente de una familia dedicada al
                   comercio supermercadista por mas de tres decadas que ha
-                  crecido y evolucionado a lo largo del tiempo. A partir de 2006
-                  gracias al espíritu emprendedor de nuestro presidente y
-                  fundador Pablo Brasca, asi como a su pasión por ofrecer
-                  alimentos de calidad, hemos pasado de ser una pequeña empresa
-                  local a convertirnos en un referente en la distribución de
-                  alimentos en toda la región.
+                  crecido y evolucionado a lo largo del tiempo.
+                  <br />
+                  <br /> A partir de 2006 gracias al espíritu emprendedor de
+                  nuestro presidente y fundador Pablo Brasca, asi como a su
+                  pasión por ofrecer alimentos de calidad, hemos pasado de ser
+                  una pequeña empresa local a convertirnos en un referente en la
+                  distribución de alimentos en toda la región.
                 </p>
                 <p className=" text-gray-500 dark:text-gray-400">
                   A lo largo de los años, hemos mantenido nuestros valores
@@ -66,7 +67,7 @@ function AboutPage() {
               </figure>
             </div>
             <img
-              className="sm:max-w-screen-sm md:max-w-sm object-cover rounded-lg shadow-lg h-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              className="sm:max-w-screen-sm md:max-w-sm object-cover rounded-lg sm:mt-3 shadow-lg h-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
               src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714061596/premiun/misc/WhatsApp_Image_2024-04-25_at_13.11.18_a3ee0270_dvraq3.jpg"
               alt="Pablo Brasca"
             />
@@ -87,7 +88,7 @@ function AboutPage() {
           <div className="sm:container flex flex-col md:flex-row lg:space-x-4 ">
             <div className=" md:ml-4 items-center px-3 md:px-0 " dir="ltr">
               <h2 className="text-4xl font-extrabold dark:text-white mt-11 mb-3 lg:ml-6 md:mb-8 ">
-                Quienes Somos
+                Quienes somos
               </h2>
               <div className=" text-left">
                 <p className="mb-5 text-gray-500 dark:text-gray-400">
