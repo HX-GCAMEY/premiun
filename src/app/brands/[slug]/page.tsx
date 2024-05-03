@@ -118,7 +118,7 @@ function BrandPage({params}: {params: any}) {
           <Fade cascade={true} key={index}>
             <div key={index}>
               <img
-                className="w-80 h-80 object-cover rounded-lg"
+                className=" w-auto md:w-80 md:h-80 object-cover rounded-lg"
                 src={image}
                 alt={index.toString()}
               />
