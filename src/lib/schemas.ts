@@ -16,4 +16,9 @@ export const contactSchema = Yup.object().shape({
     .min(10, "El asunto debe tener al menos 10 caracteres")
     .max(50, "El asunto debe tener como maximo 50 caracteres")
     .required("El asunto es requerido"),
+  phone: Yup.number()
+    .typeError("El telefono debe ser un numero")
+    .min(100000000, "El telefono debe tener al menos 9 digitos")
+    .max(9999999999, "El telefono debe tener como maximo 10 digitos")
+    .required("El telefono es requerido"),
 });

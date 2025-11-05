@@ -24,7 +24,7 @@
     "@tailus/themer-dropdown-menu": "^0.0.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
     "flowbite-react": "^0.7.5",
     "formik": "^2.4.5",
     "next": "14.1.4",

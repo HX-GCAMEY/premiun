@@ -3,7 +3,7 @@
 import {Formik, Field, Form, ErrorMessage} from "formik";
 import {contactSchema} from "lib/schemas";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faComment} from "@fortawesome/free-solid-svg-icons";
+import {faComment, faPhone} from "@fortawesome/free-solid-svg-icons";
 import {ToastContainer, toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -35,10 +35,10 @@ function ContactForm() {
   const sendEmail = (values: any) => {
     return emailjs
       .send(
-        process.env.EMAIL_SERVICE as string,
-        process.env.EMAIL_TEMPLATE as string,
+        process.env.NEXT_PUBLIC_EMAIL_SERVICE as string,
+        process.env.NEXT_PUBLIC_EMAIL_TEMPLATE as string,
         values,
-        process.env.EMAIL_KEY as string
+        process.env.NEXT_PUBLIC_EMAIL_KEY as string
       )
       .then(
         (response) => {
@@ -48,6 +48,7 @@ function ContactForm() {
           }, 5000);
         },
         (error) => {
+          console.log(error);
           notifyFailure();
         }
       );
@@ -60,6 +61,7 @@ function ContactForm() {
         reply_to: "",
         message: "",
         subject: "",
+        phone: "",
         to_name: "Premiun",
       }}
       validationSchema={contactSchema}
@@ -175,6 +177,33 @@ function ContactForm() {
                   component="div"
                 />
               </div>
+              <div className="mt-4">
+                <label
+                  htmlFor="phone"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >
+                  Telefono
+                </label>
+                <div className="flex">
+                  <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+                    <FontAwesomeIcon
+                      className="w-4 h-4 text-gray-500 dark:text-gray-400"
+                      icon={faPhone}
+                    />
+                  </span>
+                  <Field
+                    type="text"
+                    name="phone"
+                    className="rounded-none rounded-e-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="555 555 5555"
+                  />
+                </div>
+                <ErrorMessage
+                  className="mt-2 text-sm text-red-600 dark:text-red-500"
+                  name="phone"
+                  component="div"
+                />
+              </div>
             </div>
             <div className="md:w-1/2 md:px-11 px-2">
               <div className="mt-3 md:mt-0">
@@ -199,7 +228,7 @@ function ContactForm() {
               </div>
               {isSubmitting && <span>Enviando...</span>}
               <button
-                type="button"
+                type="submit"
                 className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-3"
                 disabled={isSubmitting}
               >
