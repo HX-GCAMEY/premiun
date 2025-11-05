@@ -4,8 +4,8 @@ import {Slide} from "react-awesome-reveal";
 
 function AboutPage() {
   return (
-    <div className="flex flex-col justify-center flex-wrap">
-      <div className="container flex mx-auto items-center mt-7 justify-around md:w-5/6 min-h-screen border-t-3 border-gray-500 ">
+    <div className="flex flex-col flex-wrap">
+      <div className="container flex mx-auto items-start mt-7 justify-around md:w-5/6 min-h-screen border-t-3 border-gray-500 ">
         <Slide
           direction="up"
           cascade={true}
@@ -20,16 +20,16 @@ function AboutPage() {
               <div className=" mb-5 grid grid-cols-1 gap-6 sm:grid-cols-2 mt-10">
                 <p className="text-gray-500 dark:text-gray-400 ">
                   Somos una empresa proveniente de una familia dedicada al
-                  comercio supermercadista por mas de tres decadas que ha
-                  crecido y evolucionado a lo largo del tiempo.
+                  comercio supermercadista que ha crecido y evolucionado a lo
+                  largo del tiempo.
                   <br />
-                  <br /> A partir de 2006 gracias al espíritu emprendedor de
-                  nuestro presidente y fundador Pablo Brasca, asi como a su
-                  pasión por ofrecer alimentos de calidad, hemos pasado de ser
-                  una pequeña empresa local a convertirnos en un referente en la
+                  <br /> Fundada en 2006 gracias al espíritu emprendedor de
+                  nuestro presidente Pablo Brasca, asi como a su pasión por
+                  ofrecer alimentos de calidad, hemos pasado de ser una pequeña
+                  empresa local a convertirnos en un referente en la
                   distribución de alimentos en toda la región.
                 </p>
-                <p className=" text-gray-500 dark:text-gray-400">
+                <p className="mb-5 text-gray-500 dark:text-gray-400">
                   A lo largo de los años, hemos mantenido nuestros valores
                   fundamentales de honestidad, integridad y servicio, lo que nos
                   ha permitido ganarnos la confianza y lealtad de nuestros
@@ -48,13 +48,12 @@ function AboutPage() {
                   <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
                 </svg>
                 <blockquote>
-                  <p className="text-xl italic font-medium text-gray-900 dark:text-white">
+                  <p className="mb-5 text-xl italic font-medium text-gray-900 dark:text-white">
                     Esta es nuestra historia, y estamos emocionados de
-                    compartirla mientras continuamos creciendo con las
-                    generaciones venideras.
+                    compartirla mientras continuamos creciendo.
                   </p>
                 </blockquote>
-                <figcaption className="flex items-center justify-center mt-6 md:space-x-3 rtl:space-x-reverse">
+                <figcaption className="flex items-start justify-center mt-6 md:space-x-3 rtl:space-x-reverse">
                   <div className="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
                     <cite className="pe-3 font-medium text-gray-900 dark:text-white">
                       Pablo Brasca
@@ -76,11 +75,11 @@ function AboutPage() {
       </div>
 
       <div
-        className="container flex mx-auto items-center mt-7 justify-around md:w-5/6 min-h-screen  flex-wrap "
+        className="container flex mx-auto items-start justify-around md:w-5/6 min-h-screen  flex-wrap "
         dir="rtl"
       >
         <Slide
-          direction="up"
+          direction="left"
           cascade={true}
           triggerOnce
           className="flex-shrink"
