@@ -105,7 +105,7 @@ function ContactForm() {
                     type="text"
                     name="from_name"
                     className="rounded-none rounded-e-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Bartolomiau"
+                    placeholder="Jhon Smith"
                   />
                 </div>
                 <ErrorMessage
@@ -139,7 +139,7 @@ function ContactForm() {
                     type="email"
                     name="reply_to"
                     className="rounded-none rounded-e-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="barto@correo.com"
+                    placeholder="example@mail.com"
                   />
                 </div>
                 <ErrorMessage
@@ -166,7 +166,7 @@ function ContactForm() {
                     type="text"
                     name="subject"
                     className="rounded-none rounded-e-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Bartolomiau"
+                    placeholder="Consulta sobre..."
                   />
                 </div>
                 <ErrorMessage
