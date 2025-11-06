@@ -1,3 +1,4 @@
+"use client";
 import CardComponent from "components/card/Card.component";
 import Slide from "react-awesome-reveal";
 

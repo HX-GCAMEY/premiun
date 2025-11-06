@@ -6,20 +6,24 @@ import CarouselSection from "components/carouselSection/CarouselSection.componen
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full justify-center lg:mt-10  ">
-      <div className="flex flex-col md:flex-row max-auto justify-between  md:min-h-screen md:px-10 lg:py-20 lg:px-32 border-t-3 border-gray-500 ">
+    <div className="flex flex-col w-full justify-center   ">
+      <div className="flex flex-col md:flex-row max-auto justify-between  md:min-h-screen md:px-10 lg:py-10 lg:px-32 border-t-3 border-gray-500 ">
         <div className="flex flex-col lg:w-3/5 lg:mr-6 items-center justify-center ">
-          <h1 className="text-center mb-10 mt-3 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            Representaciones
-            <br />y logistica
-          </h1>
-          <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-            Somos lideres en distribucion de productos masivos, desde la ciudad
-            de Cordoba a toda la provincia.
-            <br />
-            Te invitamos a conocernos y ser parte de
-            <span className="font-bold text-custom-purple"> PREMIUN</span>
-          </p>
+          <Slide direction="right" cascade={true} triggerOnce>
+            <h1 className="text-center mb-10 mt-3 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+              Representaciones
+              <br />y logistica
+            </h1>
+          </Slide>
+          <Slide direction="left" cascade={true} triggerOnce>
+            <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+              Somos lideres en distribucion de productos masivos, desde la
+              ciudad de Cordoba a toda la provincia.
+              <br />
+              Te invitamos a conocernos y ser parte de
+              <span className="font-bold text-custom-purple"> PREMIUN</span>
+            </p>
+          </Slide>
         </div>
         <div className="flex justify-center lg:w-3/5">
           <div className="grid grid-cols-1 gap-4 min-h-screen md:grid-cols-2">

@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import {
   Navbar,
@@ -34,7 +35,7 @@ function Nav() {
           Inicio
         </NavbarLink>
         <NavbarLink as={Link} href="/about">
-          Acerca de
+          Sobre Nosotros
         </NavbarLink>
 
         <Dropdown label="Marcas" arrowIcon={true} inline>

@@ -143,7 +143,7 @@ export const brands = [
     description:
       "Somos una empresa familiar con más de 30 años, especializada en dar valor agregado al maní 🥜 Comprometidos con la excelencia y calidad",
     location: "Argentina",
-    logo: "",
+    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081074/premiun/logos/Screenshot_2024-04-25_183548_b70ifu.png",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381321/premiun/catalogos/CAVIWA__man%C3%AD_y_derivados_1_gcoy0q.pdf",
     gallery: [
@@ -173,46 +173,6 @@ export const brands = [
     logo: "",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762380389/premiun/catalogos/INTERPORK__carnes_de_cerdo_tuecyb.pdf",
-    gallery: [],
-  },
-  {
-    id: 11,
-    tag: "carancho",
-    name: "El Carancho",
-    description: "",
-    logo: "",
-    catalogUrl:
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762380388/premiun/catalogos/EL_CARANCHO__hamburguesas_nac86a.pdf",
-    gallery: [],
-  },
-  {
-    id: 12,
-    tag: "farm-frites",
-    name: "Farm Frites",
-    description: "",
-    logo: "",
-    catalogUrl:
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762380388/premiun/catalogos/FARM_FRITES__papas_pre_fritas_yt6ge6.pdf",
-    gallery: [],
-  },
-  {
-    id: 13,
-    tag: "tuki",
-    name: "Tuki",
-    description: "",
-    logo: "",
-    catalogUrl:
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762380393/premiun/catalogos/TUKI__salchichas_hamburguesas_y_carne_picada_jdk4kz.pdf",
-    gallery: [],
-  },
-  {
-    id: 14,
-    tag: "silvia",
-    name: "Lacteos Silvia",
-    description: "",
-    logo: "",
-    catalogUrl:
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381741/premiun/catalogos/LACTEOS_SILVIA__quesos_varios_leche_yogurt_jeb2li.pdf",
     gallery: [],
   },
 ];

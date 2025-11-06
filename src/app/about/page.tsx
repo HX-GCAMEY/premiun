@@ -24,9 +24,8 @@ function AboutPage() {
                   a lo largo del tiempo.
                   <br />
                   <br /> Fundada en 2006 gracias al espíritu emprendedor de
-                  nuestro presidente Pablo Brasca, asi como a su pasión por
-                  ofrecer alimentos de calidad, hemos pasado de ser una pequeña
-                  empresa local a convertirnos en un referente en la
+                  nuestro presidente Pablo Brasca, hemos pasado de ser una
+                  pequeña empresa local a convertirnos en un referente en la
                   distribución de alimentos en toda la región.
                 </p>
                 <p className="mb-5 text-gray-500 dark:text-gray-400">
@@ -98,24 +97,31 @@ function AboutPage() {
                 </p>
                 <div className=" mb-5 grid grid-cols-1 gap-6 sm:grid-cols-2 ">
                   <p className=" text-gray-500 dark:text-gray-400">
-                    Nuestra misión es ser líderes en la distribución de
-                    productos dentro de la provincia de Córdoba y formar
-                    alianzas estratégicas con nuestros clientes, asegurando
-                    presencia en un mercado dinámico y competitivo.
+                    En Premiun nos apasiona conectar productos de calidad con
+                    las personas. Somos un centro integral de distribución con
+                    base en la ciudad de Córdoba, desde donde llegamos a toda la
+                    provincia a través de una amplia red de distribuidores y
+                    aliados comerciales.
                   </p>
                   <p className=" text-gray-500 dark:text-gray-400">
-                    Nuestra mayor fortaleza es prestar atención personalizada
-                    adaptada a cada cliente según sus necesidades y
-                    expectativas, trabajando de manera agil y eficaz.
+                    Nuestra misión es liderar el abastecimiento de alimentos,
+                    construyendo relaciones duraderas y asegurando una presencia
+                    constante en un mercado dinámico y competitivo.
                   </p>
                 </div>
                 <p className="mb-3 text-gray-500 dark:text-gray-400">
-                  Estamos plenamente comprometidos con la calidad en nuestros
-                  procesos y con el servicio brindado, sin dejar de lado la
-                  calidez humana hacia nuestro personal y en cada relación
-                  comercial con proveedores, distribuidores y clientes,
-                  asegurando que cada uno de ellos se sienta parte de nuestra
-                  empresa.
+                  Nuestra fortaleza radica en las personas: un equipo capacitado
+                  para ofrecer atención personalizada, adaptada a las
+                  necesidades y expectativas de cada cliente, basándonos siempre
+                  en la confianza, el compromiso y la eficacia del servicio que
+                  brindamos.
+                  <br />
+                  <br />
+                  Estamos plenamente comprometidos con la calidad en cada uno de
+                  nuestros procesos, sin dejar de lado la calidez humana que nos
+                  caracteriza. Valoramos profundamente nuestras relaciones con
+                  el personal, los proveedores y los clientes, asegurando que
+                  cada uno se sienta parte de nuestra empresa.
                 </p>
               </div>
             </div>
