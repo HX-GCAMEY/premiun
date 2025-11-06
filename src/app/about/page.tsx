@@ -19,9 +19,9 @@ function AboutPage() {
               </h2>
               <div className=" mb-5 grid grid-cols-1 gap-6 sm:grid-cols-2 mt-10">
                 <p className="text-gray-500 dark:text-gray-400 ">
-                  Somos una empresa proveniente de una familia dedicada al
-                  comercio supermercadista que ha crecido y evolucionado a lo
-                  largo del tiempo.
+                  Somos una empresa con raíces familiares, dedicada desde hace
+                  generaciones al comercio supermercadista, que ha evolucionado
+                  a lo largo del tiempo.
                   <br />
                   <br /> Fundada en 2006 gracias al espíritu emprendedor de
                   nuestro presidente Pablo Brasca, asi como a su pasión por
@@ -33,8 +33,8 @@ function AboutPage() {
                   A lo largo de los años, hemos mantenido nuestros valores
                   fundamentales de honestidad, integridad y servicio, lo que nos
                   ha permitido ganarnos la confianza y lealtad de nuestros
-                  clientes. Hoy en día, seguimos comprometidos con la excelencia
-                  en todo lo que hacemos.
+                  clientes. Hoy, reafirmamos nuestro compromiso con la
+                  excelencia en cada acción que emprendemos.
                 </p>
               </div>
               <figure className="max-w-screen-md mx-auto text-center">
@@ -49,8 +49,9 @@ function AboutPage() {
                 </svg>
                 <blockquote>
                   <p className="mb-5 text-xl italic font-medium text-gray-900 dark:text-white">
-                    Esta es nuestra historia, y estamos emocionados de
-                    compartirla mientras continuamos creciendo.
+                    Esta es nuestra historia y estamos emocionados de
+                    compartirla mientras continuamos avanzando con la misma
+                    pasión que nos impulsó desde el comienzo
                   </p>
                 </blockquote>
                 <figcaption className="flex items-start justify-center mt-6 md:space-x-3 rtl:space-x-reverse">
