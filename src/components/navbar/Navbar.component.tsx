@@ -35,10 +35,13 @@ function Nav() {
           Inicio
         </NavbarLink>
         <NavbarLink as={Link} href="/about">
-          Sobre Nosotros
+          Sobre nosotros
+        </NavbarLink>
+        <NavbarLink as={Link} href="/services">
+          Servicios
         </NavbarLink>
 
-        <Dropdown label="Marcas" arrowIcon={true} inline>
+        <Dropdown label="Productos" arrowIcon={true} inline>
           {brands.map((brand) => {
             return (
               <DropdownItem href={`/brands/${brand.tag}`} key={brand.id}>

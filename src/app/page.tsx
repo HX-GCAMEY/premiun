@@ -12,13 +12,13 @@ export default function Home() {
           <Slide direction="right" cascade={true} triggerOnce>
             <h1 className="text-center mb-10 mt-3 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
               Representaciones
-              <br />y logistica
+              <br />y logística
             </h1>
           </Slide>
           <Slide direction="left" cascade={true} triggerOnce>
             <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-              Somos lideres en distribucion de productos masivos, desde la
-              ciudad de Cordoba a toda la provincia.
+              Somos líderes en distribución de productos masivos, desde la
+              ciudad de Córdoba a toda la provincia.
               <br />
               Te invitamos a conocernos y ser parte de
               <span className="font-bold text-custom-purple"> PREMIUN</span>

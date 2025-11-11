@@ -29,7 +29,7 @@ function Footer() {
                 rel="noreferrer noopener"
                 target="_blank"
               >
-                <FontAwesomeIcon icon={faFacebook} />
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
             </li>
             <li>
@@ -39,7 +39,7 @@ function Footer() {
                 rel="noreferrer noopener"
                 target="_blank"
               >
-                <FontAwesomeIcon icon={faInstagram} />
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
             </li>
             <li>
@@ -49,7 +49,7 @@ function Footer() {
                 rel="noreferrer noopener"
                 target="_blank"
               >
-                <FontAwesomeIcon icon={faWhatsapp} />
+                <FontAwesomeIcon icon={faWhatsapp} size="2x" />
               </a>
             </li>
           </ul>

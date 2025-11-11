@@ -5,7 +5,7 @@ export const brands = [
     name: "Cremac",
     description:
       "Desde hace 60 años producimos quesos y lácteos con la misma pasión",
-    location: "San Marcos, provincia de Cordoba.",
+    location: "San Marcos, provincia de Córdoba.",
     logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714081902/premiun/logos/Screenshot_2024-04-25_185112_pwfypn.png",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762380394/premiun/catalogos/CREMAC__quesos_varios_crema_de_leche_dulce_de_leche_leche_en_polvo_ornbki.pdf",
@@ -25,7 +25,7 @@ export const brands = [
     id: 2,
     tag: "grassetto",
     name: "Grassetto",
-    description: "Disfruta el #MomentoGrassetto. Fiambres aptos para celiacos.",
+    description: "Disfruta el #MomentoGrassetto. Fiambres aptos para celíacos.",
     location: "Cañuelas, provincia de Buenos Aires.",
     logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713468171/premiun/logos/grasseetto_pkzmgb.jpg",
     catalogUrl:
@@ -48,7 +48,7 @@ export const brands = [
     name: "El Silencio",
     description:
       "Fiambres de calidad con el sabor de siempre. #SaboresRegionales",
-    location: "Cordoba, provincia de Buenos Aires.",
+    location: "Córdoba, provincia de Córdoba.",
     logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713883961/premiun/logos/silencio_nmqmey.jpg",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762380388/premiun/catalogos/EL_SILENCIO_embutidos_tc1c3x.pdf",
@@ -68,7 +68,7 @@ export const brands = [
     tag: "cagnoli",
     name: "Cagnoli",
     description:
-      "Salames, chacinados y fiambres de alta calidad. Elaboramos de manera artesanal el genuino salamin tandilero. #OrgullososDeSerTandileros",
+      "Salamines, chacinados y fiambres de alta calidad. Elaboramos de manera artesanal el genuino salamín tandilero. #OrgullososDeSerTandileros",
     location: "Tandil, provincia de Buenos Aires.",
     logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713468063/premiun/logos/cagnoli_qc4vui.jpg",
     catalogUrl:
@@ -90,7 +90,7 @@ export const brands = [
     tag: "inal",
     name: "Inal",
     description:
-      "Productos congelados ¡de mardel a tu casa!. Frescos, rapidos y crujientes.",
+      "Productos congelados ¡de Mar del Plata a tu casa!. Frescos, rápidos y crujientes.",
     location: "Mar del Plata, provincia de Buenos Aires.",
     logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713222828/premiun/logos/Cat%C3%A1logo-Inal_compressed_ygpvtd-1_page-0001_yrs1y5.jpg",
     catalogUrl:
@@ -107,9 +107,9 @@ export const brands = [
   {
     id: 6,
     tag: "servio",
-    name: "Lacteos Servio",
+    name: "Lácteos Servio",
     description: "",
-    logo: "",
+    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762535188/premiun/logos/LOGO_xriqvu.jpg",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381739/premiun/catalogos/LACTEOS_SERVIO__mantecas_ghee_y_dulce_de_leche_sdimok.pdf",
     gallery: [],
@@ -117,9 +117,9 @@ export const brands = [
   {
     id: 7,
     tag: "union-ganadera",
-    name: "Union Ganadera",
+    name: "Unión Ganadera",
     description:
-      "Nuestro condimento secreto: amor de familia. Por que todo queda mas rico cuando le pones 💚.",
+      "Nuestro condimento secreto: amor de familia. Porque todo queda más rico cuando le pones 💚.",
     location: "Victoria, provincia de Buenos Aires.",
     logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1713222900/premiun/logos/ug_oxeasj.jpg",
     catalogUrl:

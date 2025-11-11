@@ -5,15 +5,15 @@ import {Slide} from "react-awesome-reveal";
 function AboutPage() {
   return (
     <div className="flex flex-col flex-wrap">
-      <div className="container flex mx-auto items-start mt-7 justify-around md:w-5/6 min-h-screen border-t-3 border-gray-500 ">
+      <div className="container flex mx-auto items-start mt-10 justify-around min-h-screen border-t-3 border-gray-500 ">
         <Slide
           direction="up"
           cascade={true}
           triggerOnce
           className="flex-shrink"
         >
-          <div className="flex flex-col sm:flex-row lg:space-x-4 ">
-            <div className="sm: container">
+          <div className="flex flex-col sm:flex-row lg:space-x-20">
+            <div className="smdm: container">
               <h2 className="text-4xl font-extrabold dark:text-white mt-11 lg:ml-6">
                 Nuestra historia
               </h2>
@@ -59,7 +59,7 @@ function AboutPage() {
                       Pablo Brasca
                     </cite>
                     <cite className="ps-3 text-sm text-gray-500 dark:text-gray-400">
-                      Fundador Premiun Representaciones y Logistica
+                      Fundador Premium Representaciones y Logística
                     </cite>
                   </div>
                 </figcaption>
@@ -67,7 +67,7 @@ function AboutPage() {
             </div>
             <img
               className="sm:max-w-screen-sm md:max-w-sm object-cover rounded-lg sm:mt-3 shadow-lg h-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714061596/premiun/misc/WhatsApp_Image_2024-04-25_at_13.11.18_a3ee0270_dvraq3.jpg"
+              src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762516607/premiun/logos/logo_premiun_vu420m.jpg"
               alt="Pablo Brasca"
             />
           </div>
@@ -75,7 +75,7 @@ function AboutPage() {
       </div>
 
       <div
-        className="container flex mx-auto items-start justify-around md:w-5/6 min-h-screen  flex-wrap "
+        className="container flex mx-auto items-start justify-around md:w-5/6   flex-wrap "
         dir="rtl"
       >
         <Slide
@@ -90,11 +90,6 @@ function AboutPage() {
                 Quienes somos
               </h2>
               <div className=" text-left">
-                <p className="mb-5 text-gray-500 dark:text-gray-400">
-                  Premiun es un centro integral de distribución ubicado en la
-                  capital de Córdoba, con capacidad para cubrir toda la
-                  provincia a través de una red de distribuidores.
-                </p>
                 <div className=" mb-5 grid grid-cols-1 gap-6 sm:grid-cols-2 ">
                   <p className=" text-gray-500 dark:text-gray-400">
                     En Premiun nos apasiona conectar productos de calidad con
@@ -132,6 +127,25 @@ function AboutPage() {
             />
           </div>
         </Slide>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 pb-20 mt-10">
+        <div className="bg-gradient-to-r from-blue-50 to-white dark:from-gray-800 dark:to-gray-900 rounded-lg p-8 text-center shadow-sm">
+          <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+            ¿Querés trabajar con nosotros?
+          </h3>
+          <p className="mt-3 text-gray-600 dark:text-gray-300">
+            Contactanos para diseñar un plan comercial a la medida de tu marca.
+          </p>
+          <div className="mt-6">
+            <a
+              href="/contact"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-5 rounded-lg shadow"
+            >
+              Contactanos
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
