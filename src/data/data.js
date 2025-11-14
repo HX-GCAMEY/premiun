@@ -58,9 +58,8 @@ export const brands = [
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381028/premiun/el%20silencio/IMG-20251105-WA0003_so8cgh.jpg",
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381028/premiun/el%20silencio/IMG-20251105-WA0007_y6rbih.jpg",
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381024/premiun/el%20silencio/IMG-20251105-WA0009_rkolhc.jpg",
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381024/premiun/el%20silencio/IMG-20251105-WA0006_i7kqkh.jpg",
+
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381023/premiun/el%20silencio/IMG-20251105-WA0004_pl1xdt.jpg",
-      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381023/premiun/el%20silencio/IMG-20251105-WA0008_bapxak.jpg",
     ],
   },
   {
@@ -112,7 +111,11 @@ export const brands = [
     logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762535188/premiun/logos/LOGO_xriqvu.jpg",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762381739/premiun/catalogos/LACTEOS_SERVIO__mantecas_ghee_y_dulce_de_leche_sdimok.pdf",
-    gallery: [],
+    gallery: [
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762878491/premiun/servio/WhatsApp_Image_2025-11-11_at_12.58.59_a173a333_c3ljhj.jpg",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762878491/premiun/servio/WhatsApp_Image_2025-11-11_at_12.15.58_93fb5827_v784st.jpg",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762878490/premiun/servio/WhatsApp_Image_2025-11-11_at_12.15.58_8ee7237e_emmpsq.jpg",
+    ],
   },
   {
     id: 7,
@@ -159,20 +162,32 @@ export const brands = [
     id: 9,
     tag: "don-omar",
     name: "Don Omar",
-    description: "",
-    logo: "",
+    description:
+      "Creemos en elevar los estándares de calidad de la carne en nuestro país.🥩 Del campo a tu mesa, sin intermediarios.",
+    location: "Villa María, provincia de Córdoba.",
+    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762826385/premiun/logos/Screenshot_2025-11-11_015932_t2v1on.png",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762380392/premiun/catalogos/DON_OMAR__carne_vacuna_b3w6bw.pdf",
-    gallery: [],
+    gallery: [
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762879429/premiun/don%20omar/WhatsApp_Image_2025-11-10_at_22.59.51_97661bd9_pudp2e.jpg",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762879428/premiun/don%20omar/WhatsApp_Image_2025-11-10_at_22.59.51_bc1dc622_z4xo7t.jpg",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762879428/premiun/don%20omar/WhatsApp_Image_2025-11-10_at_22.59.51_4b54cf47_e14ftl.jpg",
+    ],
   },
   {
     id: 10,
     tag: "interpork",
     name: "Interpork",
-    description: "",
-    logo: "",
+    description:
+      "Somos una planta Ciclo 2 dedicada al desposte, enfriamiento, congelamiento y distribución de cortes de cerdos.\r\nCalidad de principio a fin.",
+    location: "Córdoba, provincia de Córdoba.",
+    logo: "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762826971/premiun/logos/Screenshot_2025-11-11_020916_ks0qta.png",
     catalogUrl:
       "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762380389/premiun/catalogos/INTERPORK__carnes_de_cerdo_tuecyb.pdf",
-    gallery: [],
+    gallery: [
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762878458/premiun/interpork/IMG-20251111-WA0011_qqbj0l.jpg",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762878458/premiun/interpork/IMG-20251111-WA0012_we3gp3.jpg",
+      "https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762878458/premiun/interpork/IMG-20251111-WA0011_qqbj0l.jpg",
+    ],
   },
 ];

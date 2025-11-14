@@ -17,8 +17,8 @@ export default function Home() {
           </Slide>
           <Slide direction="left" cascade={true} triggerOnce>
             <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-              Somos líderes en distribución de productos masivos, desde la
-              ciudad de Córdoba a toda la provincia.
+              Somos líderes en comercialización y distribución de productos
+              masivos, desde la ciudad de Córdoba a toda la provincia.
               <br />
               Te invitamos a conocernos y ser parte de
               <span className="font-bold text-custom-purple"> PREMIUN</span>
@@ -31,7 +31,7 @@ export default function Home() {
               <Slide direction="up" cascade={true} triggerOnce>
                 <img
                   className="h-auto max-w-full rounded-lg"
-                  src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714053089/premiun/misc/close-up-businessman-writing-summary_oy05tn.jpg"
+                  src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762821377/premiun/misc/IMG-20251110-WA0031_nockyt.jpg"
                   alt=""
                 />
               </Slide>
@@ -40,7 +40,7 @@ export default function Home() {
               <Slide direction="down" cascade={true} triggerOnce>
                 <img
                   className="h-auto max-w-full rounded-lg"
-                  src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714052691/premiun/misc/pexels-robertkso-18468424_lmagm2.jpg"
+                  src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762821535/premiun/misc/Screenshot_2025-11-11_003843_tam2ts.png"
                   alt=""
                 />
               </Slide>

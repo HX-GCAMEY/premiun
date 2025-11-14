@@ -20,8 +20,8 @@ function AboutPage() {
               <div className=" mb-5 grid grid-cols-1 gap-6 sm:grid-cols-2 mt-10">
                 <p className="text-gray-500 dark:text-gray-400 ">
                   Somos una empresa con raíces familiares, dedicada desde hace
-                  generaciones al comercio supermercadista, que ha evolucionado
-                  a lo largo del tiempo.
+                  generaciones al comercio de consumo masivo, que ha
+                  evolucionado a lo largo del tiempo.
                   <br />
                   <br /> Fundada en 2006 gracias al espíritu emprendedor de
                   nuestro presidente Pablo Brasca, hemos pasado de ser una
@@ -66,8 +66,8 @@ function AboutPage() {
               </figure>
             </div>
             <img
-              className="sm:max-w-screen-sm md:max-w-sm object-cover rounded-lg sm:mt-3 shadow-lg h-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762516607/premiun/logos/logo_premiun_vu420m.jpg"
+              className="sm:max-w-screen-sm md:max-w-sm object-cover rounded-lg sm:mt-3 shadow-lg h-auto"
+              src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1762821383/premiun/misc/WhatsApp_Image_2025-11-10_at_17.32.05_a2774e75_zwxfa1.jpg"
               alt="Pablo Brasca"
             />
           </div>
@@ -121,7 +121,7 @@ function AboutPage() {
               </div>
             </div>
             <img
-              className="sm:max-w-screen-sm md:max-w-sm md:min-w-sm object-cover rounded-lg shadow-lg h-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 lg:mr-6"
+              className="sm:max-w-screen-sm md:max-w-sm md:min-w-sm object-cover rounded-lg shadow-lg h-auto lg:mr-6"
               src="https://res.cloudinary.com/dtfz9e5yp/image/upload/v1714053089/premiun/misc/close-up-businessman-writing-summary_oy05tn.jpg"
               alt="Pablo Brasca"
             />
